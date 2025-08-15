@@ -18,6 +18,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\N5.Now.Api\N5.Now.Api.csproj" />
+    <ProjectReference Include="..\N5.Now.Application\N5.Now.Application.csproj" />
+    <ProjectReference Include="..\N5.Now.Domain\N5.Now.Domain.csproj" />
+    <ProjectReference Include="..\N5.Now.Infrastructure\N5.Now.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 
